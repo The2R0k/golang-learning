@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt";
+	"fmt"
 	"math"
 )
 
@@ -9,7 +9,7 @@ func Sqrt(x float64) float64 {
 	y := x
 	for prev := 0.0; prev != y; {
 		prev = y
-		y = (y+x/y)/2
+		y = (y + x/y) / 2
 	}
 	return y
 }
